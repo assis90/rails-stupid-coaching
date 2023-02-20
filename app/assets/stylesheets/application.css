@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* style links */
+a {
+  color: #337ab7;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #23527c;
+}
+
+/* center the main content */
+.main-content {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+/* add a shadow to images */
+img {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
